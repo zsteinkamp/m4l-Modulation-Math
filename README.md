@@ -11,7 +11,7 @@ Here is an image Modulation Math multiplying the signals of a Shaper (mapped to 
 
 ## Installation
 
-[Download the newest .amxd file from the frozen/ directory](https://github.com/zsteinkamp/m4l-Modulation-Math/tree/main/frozen/) or clone this repository, and drag the `Modulation Math.amxd` device into a track in Ableton Live.
+[Download the newest .amxd file from the frozen/ directory](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/Modulation%20Math%20v6.amxd) or clone this repository, and drag the `Modulation Math.amxd` device into a track in Ableton Live.
 
 ## Changelog
 
