@@ -6,7 +6,7 @@ For example, two sine-wave LFOs running at different speeds whose values are add
 
 You can add, subtract, multiply, and divide two input signals. From there, you can invert, scale, and shift the resulting signal and map it to any other parameter (up to 8 destinations).
 
-Here is an image Modulation Math multiplying the signals of an LFO (mapped to Input A) and a Shaper (mapped to Input B).
+Here is an image Modulation Math multiplying the signals of a Shaper (mapped to Input A) and an LFO (mapped to Input B).
 ![How it Looks](images/device.png)
 
 ## Installation
