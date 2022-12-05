@@ -15,7 +15,7 @@ Here is an image Modulation Math multiplying the signals of a Shaper (mapped to 
 
 ## Changelog
 
-* 2022-12-05 [v6](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/Modulation%20Math%20Av6.amxd) - Rename to 'Modulation Math', use integer version numbers.
+* 2022-12-05 [v6](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/Modulation%20Math%20v6.amxd) - Rename to 'Modulation Math', use integer version numbers.
 * 2022-05-16 [0.0.5](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/AutomationMath-0.0.5.amxd) - Configure the `live.banks` object for Push2 knob assignments.
 * 2022-04-27 [0.0.4](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/AutomationMath-0.0.4.amxd) - Add multiple mapping destinations.  (thanks AYA)
 * 2022-04-26 [0.0.3](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/AutomationMath-0.0.3.amxd) - Fix bug with multiple instances. (thanks Spin)
