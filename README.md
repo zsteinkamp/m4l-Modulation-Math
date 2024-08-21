@@ -9,6 +9,8 @@ You can add, subtract, multiply, and divide two input signals. From there, you c
 Here is an image Modulation Math multiplying the signals of a Shaper (mapped to Input A) and an LFO (mapped to Input B).
 ![How it Looks](images/device.gif)
 
+[Video showing it in action.](https://www.youtube.com/watch?v=YfRTARPEUME)
+
 ## Installation
 
 [Download the newest .amxd file from the frozen/ directory](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/) or clone this repository, and drag the `Modulation Math.amxd` device into a track in Ableton Live.
