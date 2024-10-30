@@ -19,7 +19,8 @@ Note: If you want to open and edit the non-frozen device, you will need to have 
 
 ## Changelog
 
-* 2022-12-05 [v7](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/Modulation%20Math%20v7.amxd) - Support Live 12's new modulation mode, visual improvements.
+* 2024-10-29 [v8](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v8/ModulationMath-v8.amxd) - Add non-blocking telemetry ping on load. Does not send any identifying information, only the plugin name, the local computer name, type of computer, and CPU type. I just want to see which plugins are used the most.
+* 2022-12-05 [v7](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v7/Modulation.Math.v7.amxd) - Support Live 12's new modulation mode, visual improvements.
 * 2022-12-05 [v6](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/Modulation%20Math%20v6.amxd) - Rename to 'Modulation Math', use integer version numbers.
 * 2022-05-16 [0.0.5](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/AutomationMath-0.0.5.amxd) - Configure the `live.banks` object for Push2 knob assignments.
 * 2022-04-27 [0.0.4](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/AutomationMath-0.0.4.amxd) - Add multiple mapping destinations.  (thanks AYA)
