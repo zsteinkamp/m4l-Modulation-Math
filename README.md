@@ -1,13 +1,11 @@
 # Modulation Math
 
-This is a Max For Live device that lets you combine two modulation signals using math. This allows you to have more complex modulation than what you can normally do in Ableton Live.
-
-For example, two sine-wave LFOs running at different speeds whose values are added together will produce a complex wave. Another example is to use an LFO for vibrato, but manually control a second offset with a MIDI controller.
-
-You can add, subtract, multiply, and divide two input signals. From there, you can invert, scale, and shift the resulting signal and map it to any other parameter (up to 8 destinations).
+This is a Max For Live device that lets you combine two modulation signals using math. This allows you to have more complex modulation than what you can normally do in Ableton Live. You can add, subtract, multiply, and divide two input signals. From there, you can invert, scale, and shift the resulting signal and map it to any other parameter (up to 8 destinations).
 
 Here is an image Modulation Math multiplying the signals of a Shaper (mapped to Input A) and an LFO (mapped to Input B).
 ![How it Looks](images/device.gif)
+
+For example, two sine-wave LFOs running at different speeds whose values are added together will produce a complex wave. Another example is to use an LFO for vibrato, but manually control a second offset with a MIDI controller.
 
 [Video showing it in action.](https://www.youtube.com/watch?v=YfRTARPEUME)
 
