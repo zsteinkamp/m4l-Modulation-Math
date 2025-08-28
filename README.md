@@ -2,7 +2,9 @@
 
 This is a Max For Live device that lets you combine two modulation signals using math. This allows you to have more complex modulation than what you can normally do in Ableton Live. You can add, subtract, multiply, and divide two input signals. From there, you can invert, scale, and shift the resulting signal and map it to any other parameter (up to 8 destinations).
 
-Here is an image Modulation Math multiplying the signals of a Shaper (mapped to Input A) and an LFO (mapped to Input B).
+You can control how out-of-bounds values are handled, either clipped, fold back, or wrap around.
+
+Here is an image Modulation Math adding two sine wave signals, who are then scaled and foled.
 ![How it Looks](images/device.gif)
 
 For example, two sine-wave LFOs running at different speeds whose values are added together will produce a complex wave. Another example is to use an LFO for vibrato, but manually control a second offset with a MIDI controller.
@@ -11,12 +13,13 @@ For example, two sine-wave LFOs running at different speeds whose values are add
 
 ## Installation
 
-[Download the newest .amxd file from the frozen/ directory](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/) or clone this repository, and drag the `Modulation Math.amxd` device into a track in Ableton Live.
+[Download the newest .amxd file from the latest [release](https://github.com/zsteinkamp/m4l-Modulation-Math/releases).
 
 Note: If you want to open and edit the non-frozen device, you will need to have [zs.mapper](https://github.com/zsteinkamp/m4l-zs.mapper) installed. [Follow the installation instructions](https://github.com/zsteinkamp/m4l-zs.mapper) there.
 
 ## Changelog
 
+* 2025-08-28 [v9](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v8/ModulationMath-v9.amxd) - Add Clip / Fold / Wrap option for out-of-range values. Thanks @jonahjnewton for the request!
 * 2024-10-29 [v8](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v8/ModulationMath-v8.amxd) - Add non-blocking telemetry ping on load. Does not send any identifying information, only the plugin name, the local computer name, type of computer, and CPU type. I just want to see which plugins are used the most.
 * 2022-12-05 [v7](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v7/Modulation.Math.v7.amxd) - Support Live 12's new modulation mode, visual improvements.
 * 2022-12-05 [v6](https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/frozen/Modulation%20Math%20v6.amxd) - Rename to 'Modulation Math', use integer version numbers.
@@ -33,6 +36,13 @@ Usually, you would map a MIDI controller or modulation source to `Input A` and `
 The scale and shift knobs operate on the output signal, in that order.
 
 The invert toggle (Ø) will flip the output signal, so 0 becomes 1, and 1 becomes 0.
+
+To handle values greater than 1 or less than 0, you can use the Clip / Fold / Wrap option.
+
+* ** Clip ** - Result values less than 0 are 0. Result values greater than 1 are 1.
+* ** Fold ** - Result values fold back at the 0 and 1 boundaries, so 1.1 becomes 0.9.
+* ** Wrap ** - Result values wrap around, so 1.1 becomes 0.1.
+
 
 ## Attention to Detail
 
