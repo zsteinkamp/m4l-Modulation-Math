@@ -7,7 +7,7 @@ You can control how out-of-bounds values are handled, either clipped, fold back,
 Here is an image Modulation Math adding two sine wave signals, who are then scaled and foled.
 ![How it Looks](images/device.gif)
 
-For example, two sine-wave LFOs running at different speeds whose values are added together will produce a complex wave. Another example is to use an LFO for vibrato, but manually control a second offset with a MIDI controller.
+For example, two sine-wave LFOs running at different speeds whose values are multiplied together will produce a complex wave. Another example is to use an LFO for vibrato, but manually control a second offset with a MIDI controller.
 
 [Video showing it in action.](https://www.youtube.com/watch?v=YfRTARPEUME)
 
