@@ -19,6 +19,7 @@ Note: If you want to open and edit the non-frozen device, you will need to have 
 
 ## Changelog
 
+* 2025-10-01 [v11](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v11/ModulationMath-v11.amxd) - Fix bug with modulating in Mod bipolar mode. Thanks Joe Sayer for the bug report!
 * 2025-08-28 [v10](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v10/ModulationMath-v10.amxd) - Reimplement fold and wrap in native Max instead of JS.
 * 2025-08-28 [v9](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v9/ModulationMath-v9.amxd) - Add Clip / Fold / Wrap option for out-of-range values. Thanks @jonahjnewton for the request!
 * 2024-10-29 [v8](https://github.com/zsteinkamp/m4l-Modulation-Math/releases/download/v8/ModulationMath-v8.amxd) - Add non-blocking telemetry ping on load. Does not send any identifying information, only the plugin name, the local computer name, type of computer, and CPU type. I just want to see which plugins are used the most.
